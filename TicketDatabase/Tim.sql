@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[Tim]
+(
+	[Id] INT NOT NULL PRIMARY KEY, 
+    [Ime] NVARCHAR(50) NOT NULL
+)

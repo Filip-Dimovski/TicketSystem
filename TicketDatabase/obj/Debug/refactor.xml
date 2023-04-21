@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0">
+  <Operation Name="Rename Refactor" Key="229562ad-7044-46b9-9c1a-3d393b837978" ChangeDateTime="08/30/2016 19:36:20" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Korisnik].[ime]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Korisnik]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Ime" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="923b82e1-742b-4089-9edb-304e933965e0" ChangeDateTime="08/30/2016 19:36:23" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Korisnik].[pre]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Korisnik]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Prezime" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="dd61a3d7-2011-4bfd-a543-81da431a5ccb" ChangeDateTime="08/30/2016 19:36:27" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[KreditnaKartichka].[broj]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[KreditnaKartichka]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Broj" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d1adb11e-0f96-4d75-b106-cb4d13b74580" ChangeDateTime="08/30/2016 19:36:30" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[KreditnaKartichka].[pari]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[KreditnaKartichka]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Pari" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0d7430ca-9ca7-4fe1-96ac-c72766938434" ChangeDateTime="08/30/2016 19:37:36" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Korisnik].[E-mail]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Korisnik]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Email" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0a4a3611-dbac-4cba-8331-21cf78bb6824" ChangeDateTime="08/30/2016 19:40:21" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Korisnik].[brojKreditnaKartichka]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Korisnik]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdKreditnaKartichka" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="19e13ffd-a9a2-4839-ae6d-762a52361625" ChangeDateTime="08/30/2016 19:46:10" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Nastan].[ime]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Nastan]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Ime" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ec4dd4c2-47d6-43a9-8c20-fc441775bf3d" ChangeDateTime="08/30/2016 20:46:28" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[KoncertPejac].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[KoncertPejac]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="NastanId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b1588f39-ba15-4f65-afad-b3b0fda67990" ChangeDateTime="08/30/2016 20:46:35" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[KoncertPejac].[NastanId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[KoncertPejac]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="KoncertId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="118ec54f-9e3d-4cd5-ad2e-d5c5139101a9" ChangeDateTime="08/30/2016 20:49:37" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Sport].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Sport]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="NastanId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c7cfb5d2-face-4cef-8bde-33f0c1cdd2a1" ChangeDateTime="08/30/2016 20:50:47" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Sport].[DomashenTim]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Sport]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DomashenTimId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="fffc0c7b-95b4-4521-899d-0ea736a72c5d" ChangeDateTime="08/30/2016 20:51:28" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Sport].[GostinskiTimId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Sport]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="GostinskiTim" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2bb41979-1555-46ae-83ae-e4316a2a2d1c" ChangeDateTime="08/30/2016 20:51:30" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Sport].[DomashenTimId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Sport]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DomashenTim" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4a76e5b3-8a85-4441-855b-a1675711e188" ChangeDateTime="08/30/2016 20:52:02" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Sport].[DomashenTim]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Sport]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DomashenTimId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="134d1888-82be-4428-8ab7-1f4059d0e540" ChangeDateTime="08/30/2016 20:52:04" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Sport].[GostinskiTim]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Sport]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="GostinskiTimId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8ea521ba-35cd-420c-aa88-83e2bf210951" ChangeDateTime="08/30/2016 20:54:36" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Teatar].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Teatar]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="NastanId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6b8a9f82-d2a1-4030-b9c4-837ef2d5eae4" ChangeDateTime="08/30/2016 20:54:49" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Teatar].[tip]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Teatar]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TIp" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2f4b1dc9-7293-44fe-91d4-e09b90d537f0" ChangeDateTime="08/30/2016 20:56:02" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[TeatarIzveduvach].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TeatarIzveduvach]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TeatarId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e5adc151-895b-43ab-85cf-2274844434d8" ChangeDateTime="08/30/2016 20:58:29" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Zooloshka].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Zooloshka]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="NastanId" />
+  </Operation>
+</Operations>
