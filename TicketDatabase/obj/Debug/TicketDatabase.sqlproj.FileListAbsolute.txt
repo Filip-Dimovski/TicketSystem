@@ -1,0 +1,9 @@
+C:\Users\Filip\Documents\Visual Studio 2015\Projects\Proekt\TicketDatabase\bin\Debug\TicketDatabase.dacpac
+C:\Users\Filip\Documents\Visual Studio 2015\Projects\Proekt\TicketDatabase\obj\Debug\Model.xml
+C:\Users\Filip\Documents\Visual Studio 2015\Projects\Proekt\TicketDatabase\obj\Debug\refactor.xml
+C:\Users\Filip\Documents\Visual Studio 2015\Projects\Proekt\TicketDatabase\obj\Debug\postdeploy.sql
+C:\Users\Filip\Documents\Visual Studio 2015\Projects\Proekt\TicketDatabase\obj\Debug\predeploy.sql
+C:\Users\Filip\Documents\Visual Studio 2015\Projects\Proekt\TicketDatabase\obj\Debug\TicketDatabase.dll
+C:\Users\Filip\Documents\Visual Studio 2015\Projects\Proekt\TicketDatabase\obj\Debug\TicketDatabase.pdb
+C:\Users\Filip\Documents\Visual Studio 2015\Projects\Proekt\TicketDatabase\bin\Debug\TicketDatabase.dll
+C:\Users\Filip\Documents\Visual Studio 2015\Projects\Proekt\TicketDatabase\bin\Debug\TicketDatabase.pdb
